@@ -1,0 +1,371 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 16px;
+	font-family: 'DM Sans', sans-serif;
+}
+
+// font-family: 'Mulish', sans-serif;
+/* ------------------ */
+/* ------------------ */
+/* ------------------ */
+
+/* ------------------ */
+
+.container {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.header__main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__img {
+    margin-top: 40px;
+}
+
+.nav__menu {
+    margin-top: 44px;
+    display: flex;
+    width: 327px;
+    justify-content: space-between;
+}
+
+.nav__links {
+    display: inline-block;
+    padding-bottom: 11px;
+    color: #696871;
+    font-size: 15px;
+    font-weight: 700;
+}
+.nav__links:hover {
+    color: #000000;
+    border-bottom: 2px #5454D4 solid;
+}
+
+.header__button {
+    margin-top: 30px;
+    color: #ffffff;
+    background-color: #FF7143;
+}
+
+.button {
+    width: 211px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.button__link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header__button-content {
+    background-color: #5454D4;
+}
+
+.header__sub {
+    display: flex;
+    margin-bottom: 110px;
+}
+
+.header__title {
+    margin-top: 192px;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.header__image {
+    max-width: 610px;
+    max-height: 644px;
+    margin-top: 100px;
+}
+
+.header__descr {
+    font-size: 20px;
+    max-width: 459px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    line-height: 30px;
+    font-family: 'Mulish', sans-serif;
+    color: #696871;
+}
+
+
+.company-logos__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.subscription {
+    height: 1030px;
+}
+.subscription__block {
+    display: flex;
+}
+
+
+.first__about {
+    margin-left: 165px;
+    padding-top: 140px;
+}
+
+.second__about {
+    margin-right: 165px;
+    padding-top: 190px;
+}
+
+.subscription__title {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.subscription__descr {
+    font-size: 20px;
+    color: #696871;
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 30px;
+}
+.subscription__link {
+    color: #5454D4;
+    font-size: 17px;
+    font-weight: 700;
+}
+.subscription__image {
+    max-width: 348.5px;
+}
+
+.subscription__about {
+    max-width: 556px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons__content {
+    display: flex;
+    flex-direction: column;
+    width: 307;
+    height: 208px;
+}
+
+.icons__img {
+    margin: 0 auto;
+    max-width: 114px;
+    max-height: 64px;
+}
+
+
+.icons__descr {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    color: #696871;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.icons__title {
+    text-align: center;
+    margin-top: 7px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.icons {
+    margin-bottom: 150px;
+}
+
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.buy {
+    width: 160px;
+    height: 55px;
+    background-color: #fff;
+    transition: all 0.5s;
+    &:hover {
+        background-color: #5454D4;
+        color: #ffffff;
+    }
+}
+
+.footer {
+    padding-bottom: 100px;
+}
+
+.footer__buttons {
+    display: flex;
+}
+.button-yearly {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.button-monthly {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.button-buy__link {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 25px 50px;
+    color: #000000;
+    &:hover {
+        color: #ffffff;
+    }
+}
+
+
+.footer__title {
+    font-size: 60px;
+    font-weight: 700;
+    max-width: 538px;
+}
+
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px -9px;
+}
+
+.vertical {
+    flex: 0 1 33.333%;
+    margin: 0px 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.5s;
+    background-color: #EAE9F2;
+    &__name {
+    font-size: 18px;
+    color: #696871;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    }
+    &__price {
+        font-size: 60px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    &__descr {
+        font-size: 17px;
+        font-family: 'DM Sans', sans-serif;
+        line-height: 50px;
+        color: #696871;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    &__button {
+        width: 305px;
+        height: 60px;
+        border-radius: 10px;
+        margin-bottom: 43px;
+        background-color: #fff;
+    }
+    &__link {
+        font-size: 17px;
+        color: #5454D4;
+        font-weight: 700;
+    }
+    &:hover {
+        background-color: #FF7143;
+        color: #ffffff;
+            .vertical__descr {
+                color: #ffffff;
+        }
+            .vertical__name {
+                color: #ffffff;
+            }
+            .vertical__link {
+                color: #ffffff;
+            }
+            .vertical__button {
+                background-color: #9F3919;
+            }
+    }
+}
+
+// .vertical__name {
+//     font-size: 18px;
+//     color: #696871;
+//     text-align: center;
+//     margin-bottom: 20px;
+//     margin-top: 50px;
+// }
+
+// .vertical__price {
+//     font-size: 60px;
+//     font-weight: 700;
+//     text-align: center;
+//     margin-bottom: 25px;
+// }
+
+// .vertical__descr {
+//     font-size: 17px;
+//     font-family: 'DM Sans', sans-serif;
+//     line-height: 50px;
+//     color: #696871;
+//     text-align: center;
+//     margin-bottom: 35px;
+// }
+
+// .vertical__button {
+//     width: 305px;
+//     height: 60px;
+//     border-radius: 10px;
+//     background-color: #fff;
+//     margin-bottom: 43px;
+// }
+
+// .vertical__link {
+//     font-size: 17px;
+//     color: #5454D4;
+//     font-weight: 700;
+// }
